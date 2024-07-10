@@ -1,0 +1,64 @@
+body {
+    background-image: url(food3.webp);
+    background-size: cover;
+}
+.top {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.btn1 {
+    width: 30%;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #674747;
+    color: antiquewhite;
+    font-size: 15px;
+    font-family: 'Yeseva One', cursive;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+.move {
+    margin-top: 120px;
+}
+h3 {
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+.mainform {
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    
+
+}
+.form {
+    padding: 10px;
+    background-color: #829460;
+    
+    width: 98%;
+    border: none;
+}
+
+
+
+@media all and (max-width:800px) {
+    .form {
+        width: 90%;
+    }
+    .btn1 {
+        width: 40%;
+    }
+}
+@media all and (max-width:500px) {
+    .btn {
+        font-size: 10px;
+    }
+}

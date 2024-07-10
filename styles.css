@@ -1,0 +1,156 @@
+body{
+    background-color: #829460;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    background-color: #674747;
+}
+
+.menu1 {
+    margin-right: auto;
+    font-family: 'Yeseva One', cursive;
+    font-size: 35px;
+    margin-left: 20px;
+    color: antiquewhite;
+    opacity: 0;
+}
+
+.menu2 {
+    padding: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    opacity: 0;
+}
+.menu2:hover {
+    cursor: pointer ;
+    background-color: antiquewhite;
+    color:#674747;
+
+}
+
+.text_cent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.text {
+    color: rgb(58, 21, 58);
+    font-size: 30px;
+    font-family: 'Yeseva One', cursive;
+}
+.rest_text {
+    color: rgb(58, 21, 58);
+    font-size: 20px;
+    font-family: 'Yeseva One', cursive;
+}
+#thevideo {
+    width: 100%; 
+}
+
+.rest {
+    display: flex;
+    justify-content: center;
+}
+.rest_pict {
+    width: 70%;
+}
+
+.food {
+    display: flex;
+    justify-content: space-around;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.picw {
+    width: 100%;
+}
+
+.self {
+    align-self: center;
+    font-family: 'Yeseva One', cursive;
+    font-size: 15px;
+    color: rgb(58, 21, 58);
+}
+
+.head {
+    font-size: 20px;
+}
+
+.adj {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    padding: 30px;
+    background-color: #674747;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Yeseva One', cursive;
+    border: none;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+@media all and (max-width:800px){
+    body {
+        background-color: #674747;
+    }
+    .menu {
+        flex-direction: column;
+        background-color: #829460;
+    }
+    .btn {
+        background-color: #829460;
+    }
+    .menu1,.menu2 {
+        padding: 0px;        
+    }
+    .menu1 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .text,.rest_text {
+        text-align: center;
+    }
+    .adj {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .rest_pict {
+        width: 100%;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact1 {
+        text-align: center;
+    }
+}
+@media all and (max-width:500px){
+    .menu1,.menu2 {
+        font-size: 15px;
+    }
+    .food {
+        flex-direction: column;
+    }
+    .one {
+        width: 100%;
+    }
+}

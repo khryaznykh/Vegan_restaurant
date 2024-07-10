@@ -1,0 +1,64 @@
+body {
+    background-image: url(stpat.jpg);
+    background-size: cover;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-top: 300px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    color: #674747;
+}
+h1:hover {
+    text-transform: uppercase;
+}
+b {
+    font-size: 25px;
+    text-decoration: underline;
+}
+.btn {
+    background-color: #829460;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 20px;
+    color: #674747;
+    font-family: 'Yeseva One', cursive;
+    font-size: 15px;
+    border: none;
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn:hover {
+    cursor: pointer;
+}
+@media all and (max-width:800px) {
+    body {
+        background-image: none;
+        background-color: #829460;
+    }
+    .btn {
+        border: #674747 2px solid;
+    }
+    .main {
+        margin-top: 0px;
+    }
+    h1,p {
+        text-align: center;
+    }
+}
+
+@media all and (max-width:500px) {
+    .main {
+        font-size: 15px;
+    }
+    .btn {
+        padding:10px;
+        font-size: 10px;
+    }
+}

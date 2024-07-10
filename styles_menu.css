@@ -1,0 +1,47 @@
+body {
+    background-image: url(food18.webp);
+    background-size: cover;
+}
+.btn {
+    background-color: #829460;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 20px;
+    color: #674747;
+    font-family: 'Yeseva One', cursive;
+    font-size: 15px;
+    border: none;
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.heading {
+    color: antiquewhite;
+    font-size: 30px;
+    text-align: center;
+}
+.menu {
+    color: antiquewhite;
+    width: 90%;
+    font-size: 18px;
+}
+.row {
+    padding: 20px;
+    
+}
+@media all and (max-width:800px) {
+    .menu {
+        font-size: 15px;
+        width: 100%;
+    }
+    .row {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,56 @@
+body {
+    background-image: url(food16.webp);
+    background-size: cover;
+}
+h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    margin-left: 50px;
+    color: #444f30;
+}
+.type {
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    margin-left: 50px;
+    color: #444f30;
+}
+form {
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    margin-left: 50px;
+    color: #444f30;
+}
+.options {
+    padding: 5px;
+    font-family: 'Yeseva One', cursive;
+    color: #444f30;
+}
+.wid {
+    width: 50%;
+    color: #444f30;
+}
+.btn {
+    padding: 20px;
+    background-color: #674747;
+    font-family: 'Yeseva One', cursive;
+    font-size: 15px;
+    color: antiquewhite;
+    margin-left: 50px;
+    border: none;
+    border-radius: 20px;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.move {
+    margin-top: 120px;
+}
+@media all and (max-width:800px){
+    h3,form,.btn {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .move {
+        margin-top: 50px;
+    }
+}
