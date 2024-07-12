@@ -14,7 +14,6 @@ body{
     font-size: 35px;
     margin-left: 20px;
     color: antiquewhite;
-    opacity: 0;
 }
 
 .menu2 {
@@ -23,9 +22,11 @@ body{
     text-decoration: none;
     font-family: 'Yeseva One', cursive;
     font-size: 20px;
-    opacity: 0;
 }
-.menu2:hover {
+.menu3 {
+    padding: 20px;
+}
+.menu2:hover, .menu3:hover {
     cursor: pointer ;
     background-color: antiquewhite;
     color:#674747;
