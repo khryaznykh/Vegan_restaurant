@@ -1,5 +1,5 @@
 body {
-    background-image: url(food3.webp);
+    background-image: url(assets/food3.webp);
     background-size: cover;
 }
 .top {
@@ -10,8 +10,6 @@ body {
 .btn1 {
     width: 30%;
 }
-
-
 .btn {
     width: 100%;
     padding: 20px;
@@ -36,13 +34,10 @@ h3 {
 .mainform {
     font-family: 'Yeseva One', cursive;
     font-size: 20px;
-    
-
 }
 .form {
     padding: 10px;
     background-color: #829460;
-    
     width: 98%;
     border: none;
 }
